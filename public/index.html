@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMS Bomber</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="container">
+        <div id="datetime"></div>
+        <h1>SMS Bomber</h1>
+        <div class="input-group">
+            <label for="phone">Number ng gusto mong i-bomb  ya</label>
+            <input type="number" id="phone" name="phone">
+        </div>
+        <div class="input-group">
+            <label for="amount">Enter the amount</label>
+            <input type="number" id="amount" name="amount">
+        </div>
+        <div class="input-group">
+            <label for="cooldown">Enter the cooldown (per second)</label>
+            <input type="number" id="cooldown" name="cooldown">
+        </div>
+        <button class="button" onclick="startBombing()">Start Bombing</button>
+        <div id="response"></div>
+        <footer>This SMS Bomb was created by AriesOliver</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+  </html>
+  
